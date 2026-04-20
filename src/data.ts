@@ -14,7 +14,7 @@ export type SkillGroup = {
 export const tagline = "Full-stack developer building fast, clean software from UI to database."
 
 export const about =
-  "I'm a full-stack software developer specialising in React and Svelte UIs, RESTful services with Node.js, and PostgreSQL. I enjoy modernising legacy codebases, working in agile teams, and using AI-assisted tools to keep code quality high and delivery fast. Currently at WhiteBullet Solutions in London, shipping high-performance interfaces and CI/CD pipelines on AWS."
+  "I'm a full-stack software developer specialising in React and Svelte UIs, RESTful services with Node.js, Fastify and PostgreSQL. I enjoy modernising legacy codebases, working in agile teams, and using AI-assisted tools to keep code quality high and delivery fast. Currently in London, shipping high-performance interfaces and CI/CD pipelines on AWS or Vercel."
 
 export const projects: Project[] = [
   {
@@ -44,7 +44,7 @@ export const projects: Project[] = [
   {
     name: "Goodbadmeh.news",
     description:
-      "A daily news app that fetches headlines and ranks each article as positive, negative, or neutral.",
+      "A mobile first daily news app that fetches headlines and ranks each article as positive, negative, or neutral.",
     stack: ["React", "Node.js", "Tailwind CSS", "Vercel"],
     demo: "https://goodbadmeh.news",
     github: "",
