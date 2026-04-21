@@ -46,8 +46,8 @@ export const projects: Project[] = [
     description:
       "A mobile first daily news app that fetches headlines and ranks each article as positive, negative, or neutral.",
     stack: ["React", "Node.js", "Tailwind CSS", "Vercel"],
-    demo: "https://goodbadmeh.news",
-    github: "",
+    demo: "https://goodbadmeh.vercel.app/",
+    github: "https://github.com/ProjectsWithZoe/goodbadmeh",
   },
   {
     name: "Countdown",
