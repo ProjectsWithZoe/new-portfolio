@@ -16,9 +16,9 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        <Carousel />
         <ProjectGrid />
         <TechStack />
+        <Carousel />
       </main>
       <Footer />
     </div>

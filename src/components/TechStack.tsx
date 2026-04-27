@@ -2,7 +2,7 @@ import { skillGroups } from '../data'
 
 export default function TechStack() {
   return (
-    <section id="stack" className="max-w-5xl mx-auto px-6 py-24">
+    <section id="stack" className="max-w-5xl mx-auto px-6 py-8">
       <div className="flex items-baseline gap-3 mb-10">
         <span className="text-sm font-mono text-neutral-300 dark:text-neutral-600 select-none">03</span>
         <h2 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-100">Stack</h2>
