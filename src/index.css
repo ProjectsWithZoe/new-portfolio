@@ -13,3 +13,20 @@ html {
 .dark .dot-grid {
   background-image: radial-gradient(circle, #262626 1px, transparent 1px);
 }
+
+@keyframes carousel-enter-right {
+  from { transform: translateX(60px); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+@keyframes carousel-enter-left {
+  from { transform: translateX(-60px); opacity: 0; }
+  to   { transform: translateX(0);     opacity: 1; }
+}
+@keyframes carousel-exit-right {
+  from { transform: translateX(0);    opacity: 1; }
+  to   { transform: translateX(-60px); opacity: 0; }
+}
+@keyframes carousel-exit-left {
+  from { transform: translateX(0);   opacity: 1; }
+  to   { transform: translateX(60px); opacity: 0; }
+}

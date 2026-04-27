@@ -1,6 +1,7 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
+import Carousel from './components/Carousel'
 import ProjectGrid from './components/ProjectGrid'
 import TechStack from './components/TechStack'
 import Footer from './components/Footer'
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Carousel />
         <ProjectGrid />
         <TechStack />
       </main>
