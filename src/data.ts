@@ -50,11 +50,19 @@ export const projects: Project[] = [
     github: "https://github.com/ProjectsWithZoe/goodbadmeh",
   },
   {
+    name: "Workshop",
+    description:
+      "Simple project management dashboard for solo developers or founders with multiple projects",
+    stack: ["React", "Tailwind CSS", "Node.js", "Microservices", "Vercel", "PostgreSQL", "Claude Code"],
+    demo: "https://workshop-pm-demo.vercel.app/",
+    github: "https://github.com/ProjectsWithZoe/workshop-pm-demo",
+  },
+  {
     name: "Countdown",
     description:
       "Extremely simple app that counts down the days, hours, minutes to an event",
     stack: ["React", "Next.js", "Tailwind CSS", "Vercel"],
-    demo: "countdown-app-ten-sooty.vercel.app",
+    demo: "https://countdown-app-ten-sooty.vercel.app",
     github: "https://github.com/ProjectsWithZoe/Countdown-app",
   },
 ]
