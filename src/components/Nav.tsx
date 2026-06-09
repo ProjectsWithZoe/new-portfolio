@@ -37,6 +37,13 @@ export default function Nav({ dark, onToggle }: Props) {
               </a>
             ))}
           </div>
+          <a
+            href="/cv.pdf"
+            download
+            className="text-sm px-3.5 py-1.5 rounded-lg bg-neutral-900 dark:bg-neutral-100 text-neutral-50 dark:text-neutral-900 hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-colors duration-200 font-medium"
+          >
+            CV
+          </a>
           <button
             onClick={onToggle}
             aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
